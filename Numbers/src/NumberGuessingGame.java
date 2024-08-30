@@ -10,6 +10,7 @@ public class NumberGuessingGame {
         int userGuess = 0;
         int attempts = 0;
         boolean correct = false;
+        System.out.println("Hello, this is for my CS 2600 Project 0 Git Ready!")
 
         System.out.println("Welcome to the Number Guessing Game!");
         System.out.println("Guess a number between 1 and 10:");
@@ -17,7 +18,7 @@ public class NumberGuessingGame {
         while (!correct) {
             System.out.print("Your guess: ");
             userGuess = scanner.nextInt();
-            attempts++;
+            ;
 
             if (userGuess == numberToGuess) {
                 correct = true;
